@@ -26,17 +26,18 @@ let somaCC = new soma(json.ferias[2].valor , json.transporte[0].valor);
 let somaCA = new soma(json.ferias[2].valor , json.transporte[1].valor);
 let somaCV = new soma(json.ferias[2].valor , json.transporte[2].valor);
 
-document.getElementById("PA").innerHTML = somaPA.valor;
 document.getElementById("PC").innerHTML = somaPC.valor;
+document.getElementById("PA").innerHTML = somaPA.valor;
 document.getElementById("PV").innerHTML = somaPV.valor;
 
-document.getElementById("CA").innerHTML = somaCA.valor;
 document.getElementById("CC").innerHTML = somaCC.valor;
+document.getElementById("CA").innerHTML = somaCA.valor;
 document.getElementById("CV").innerHTML = somaCV.valor;
 
-document.getElementById("IA").innerHTML = somaIA.valor;
 document.getElementById("IC").innerHTML = somaIC.valor;
+document.getElementById("IA").innerHTML = somaIA.valor;
 document.getElementById("IV").innerHTML = somaIV.valor;
+
 //console.log("PRAIA");
 /*
 console.log("PRAIA");
